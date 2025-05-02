@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include <time.h>
 #include <sys/time.h> /* for gettimeofday system call */
-#include "../src/lab.h"
+#include "../src/lab.c"
 
 #define UNUSED(x) (void)x
 #define MAX_C 8           /* Maximum number of consumer threads */

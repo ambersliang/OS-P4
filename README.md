@@ -27,3 +27,24 @@ In order to use git send-mail you need to run the following command:
 ```bash
 make install-deps
 ```
+
+# Running the Main Program
+
+## Go to directory
+
+```bash
+cd app
+```
+
+## Building 
+
+```bash
+gcc -o my_program main.c -pthread
+```
+
+## Testing
+
+```bash
+./my_program
+```
+
